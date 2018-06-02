@@ -1,0 +1,34 @@
+{
+  "name": "secproblem",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "co": "^4.6.0",
+    "cookie-parser": "~1.4.3",
+    "crawler": "^1.1.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "json2csv": "^4.1.3",
+    "morgan": "~1.9.0",
+    "yield": "0.0.6-8"
+  },
+  "description": "D-Y's second problem.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamJune/D-Y-test.git"
+  },
+  "author": "Lydia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamJune/D-Y-test/issues"
+  },
+  "homepage": "https://github.com/IamJune/D-Y-test#readme"
+}

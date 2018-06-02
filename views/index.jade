@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= '爬取结果'
+  each cont in conten
+    ul
+      each val,key in cont
+        li #{key}:#{val}
+
